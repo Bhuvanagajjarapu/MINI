@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Add your custom CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .org-chart {
+      display: flex;
+      justify-content: center;
+    }
+
+    .box {
+      text-align: center;
+      border: 1px solid #333;
+      padding: 10px;
+      margin: 10px;
+      width: 120px;
+    }
+
+    .box h3 {
+      margin: 0;
+    }
+
+    .line {
+      border-top: 1px solid #333;
+      width: 60px;
+      margin: 0 auto;
+    }
+  </style>
+  <title>Organizational Chart</title>
+</head>
+<body>
+
+  <!-- Organizational Chart -->
+  <div class="org-chart">
+    <div class="box">
+      <h3>CEO</h3>
+      <div class="line"></div>
+      <div class="box">
+        <h3>Manager 1</h3>
+        <div class="line"></div>
+        <div class="box">
+          <h3>Employee 1</h3>
+        </div>
+        <div class="box">
+          <h3>Employee 2</h3>
+        </div>
+      </div>
+      <div class="box">
+        <h3>Manager 2</h3>
+        <div class="line"></div>
+        <div class="box">
+          <h3>Employee 3</h3>
+        </div>
+        <div class="box">
+          <h3>Employee 4</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
